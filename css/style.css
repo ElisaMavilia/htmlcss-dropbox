@@ -42,11 +42,10 @@
 ul li,a{
     text-decoration: none;
     list-style: none;
+    color: var(--color-black);
+    padding: 0 10px;
 }
 
-ul{
-    color: var(--color-not-white);
-}
 
 .btn{
     padding: 2px 8px;
@@ -55,6 +54,7 @@ ul{
 
 .btn-blue{
     background-color: #0061ff;
+    color: var(--color-white);
 }
 
 /* flex utility */
@@ -92,7 +92,6 @@ header{
 
 nav{
     background-color: var(--color-not-white);
-    color: var(--color-black);
     padding: 4px;
 }
 
