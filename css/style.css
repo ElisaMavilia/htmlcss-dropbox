@@ -93,6 +93,12 @@ header{
 nav{
     background-color: var(--color-not-white);
     padding: 4px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#logo{
+    width: 100px
 }
 
 /* main */
