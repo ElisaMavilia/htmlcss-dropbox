@@ -30,13 +30,52 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #ffd830;
+    
 }
 
 .small-container{
     max-width: 1000px;
     margin: 0 auto;
     background-color: blue;
+}
+
+ul li,a{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    color: var(--color-not-white);
+}
+
+.btn{
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+}
+
+/* flex utility */
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.direction-row{
+    flex-direction: row;
+}
+
+.a-items-center{
+    align-items: center;
+}
+
+.a-content-center{
+    align-content: center;
 }
 
 /* body */
@@ -48,6 +87,13 @@ body{
 /* header */
 header{
     width: 100%;
+    
+}
+
+nav{
+    background-color: var(--color-not-white);
+    color: var(--color-black);
+    padding: 4px;
 }
 
 /* main */
