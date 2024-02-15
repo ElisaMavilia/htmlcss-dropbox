@@ -63,6 +63,17 @@ ul li,a{
     text-align: center;
 }
 
+.scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-not-white);
+    z-index: 3000;
+}
+
+
+
 /* flex utility */
 .d-flex{
     display: flex;
@@ -97,14 +108,14 @@ body{
 /* header */
 header{
     width: 100%;
-    
+    background-color: var(--color-not-white);   
 }
 
 nav{
     background-color: var(--color-not-white);
     padding: 4px;
     font-size: 14px;
-    padding: 10px;
+    padding: 10px;     
 }
 
 #logo{
@@ -120,6 +131,19 @@ nav{
     width: 30%;
     padding-left: 20px;
     
+}
+
+.jumbo-right{
+   width: 60%;
+}
+
+/* #jumbo-box{
+    position: relative;
+} */
+
+#jumbo-image{
+    width: 100%;
+    display: block;
 }
 
 
