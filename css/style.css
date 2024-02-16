@@ -108,6 +108,10 @@ ul li,a{
     align-items: center;
 }
 
+.a-items-flex-end{
+    align-items: flex-end;
+}
+
 .a-content-center{
     align-content: center;
 }
@@ -283,6 +287,14 @@ padding-bottom: 20px;
     padding-left: 5px;
     color: grey;
 }
+
+/* .right-up{
+    width: 30%;
+}
+
+.left-up{
+    width: 70%;
+} */
 
 /* footer */
 footer{
