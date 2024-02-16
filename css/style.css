@@ -247,8 +247,10 @@ section{
 padding-bottom: 20px;
 }
 
-{
-    padding-bottom: ;
+.action-link{
+    border-bottom: 1px solid grey;
+    width: 20%;
+    margin-bottom: 20px;
 }
 
 /* footer */
