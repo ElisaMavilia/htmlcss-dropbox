@@ -92,6 +92,10 @@ ul li,a{
     justify-content: space-between;
 }
 
+.j-content-center{
+        justify-content: center;
+}
+
 .direction-row{
     flex-direction: row;
 }
@@ -109,7 +113,7 @@ ul li,a{
 }
 
 .stretch{
-    align-items: ;
+    align-items: stretch;
 }
 
 /* body */
@@ -236,7 +240,15 @@ section{
 }
 
 .box-list{
-  padding: 20px 0;
+  padding: 20px 0px;
+}
+
+.box-actions,.action-link{
+padding-bottom: 20px;
+}
+
+{
+    padding-bottom: ;
 }
 
 /* footer */
