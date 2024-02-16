@@ -225,7 +225,9 @@ section{
 
 .btn-box{
     text-align: center;
-    padding: 4px 10px;
+    padding: 4px 50px;
+    margin-left: 10px;
+    font-size: 0.7em;
 }
 
 .box-title{
@@ -260,6 +262,14 @@ padding-bottom: 20px;
 
 .box-up ul li, .box-down ul li, .box-down h5, .box-up h4{
     margin-bottom: 10px;
+}
+
+.box-up ul li, .box-down ul li{
+    font-size: 0.8em;
+}
+
+.action-link {
+    font-size: 0.8em;
 }
 
 #amount{
