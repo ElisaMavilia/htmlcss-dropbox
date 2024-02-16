@@ -45,6 +45,10 @@ ul li,a{
     padding: 0 10px;
 }
 
+p{
+    font-size: 0.8em;
+}
+
 .scroll{
     position: fixed;
     top: 0;
@@ -118,6 +122,10 @@ ul li,a{
 
 .stretch{
     align-items: stretch;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
 }
 
 /* body */
@@ -245,6 +253,7 @@ section{
     padding-left: 10px;
 }
 
+
 .box-list{
   padding: 20px 0px;
 }
@@ -254,8 +263,6 @@ padding-bottom: 20px;
 }
 
 .action-link{
-    border-bottom: 1px solid grey;
-    width: 20%;
     margin-bottom: 20px;
 }
 
@@ -288,13 +295,9 @@ padding-bottom: 20px;
     color: grey;
 }
 
-/* .right-up{
-    width: 30%;
+#p-box{
+    padding-left: 10px;
 }
-
-.left-up{
-    width: 70%;
-} */
 
 /* footer */
 footer{
