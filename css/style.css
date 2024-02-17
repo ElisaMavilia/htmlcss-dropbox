@@ -299,6 +299,16 @@ padding-bottom: 20px;
     padding-left: 10px;
 }
 
+/* section 5 */
+.cards{
+    width: calc(100% / 3);
+}
+
+.card-up img{
+    width: 100%;
+    display: block;
+}
+
 /* footer */
 footer{
     width: 100%;
