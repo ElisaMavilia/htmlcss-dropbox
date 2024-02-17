@@ -201,6 +201,7 @@ h1{
 main{
     width: 100%;
     padding: 20px;
+    background-color: var(--color-not-white);
 }
 section{
     padding-left: 70px;
@@ -306,10 +307,10 @@ padding-bottom: 20px;
 /* section 5 */
 
 #five{
-   
+   gap: 10px;
 }
 .single-card{
-    width: calc(100% / 3);  
+    width: calc(100% / 3 - 10px);  
 }
 
 .card-up img{
