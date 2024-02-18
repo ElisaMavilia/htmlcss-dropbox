@@ -334,9 +334,35 @@ padding-bottom: 20px;
     width: 100%;
     aspect-ratio: 1 / 1;
     display: block;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    filter: invert(100%);
+  
 }
 .logo-left{
     width: 50%;
+}
+
+.image-design{
+    background-color: var(--color-light-green);
+}
+
+.image-asu{
+    background-color: var(--color-burgundy);
+}
+
+.image-usflorida{
+    background-color: var(--color-dark-blue);
+}
+
+.image-topp{
+    background-color: var(--color-dark-red);
+}
+
+.center-box{
+    background-color: var(--color-not-white);
 }
    
 
