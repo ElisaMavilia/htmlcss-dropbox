@@ -326,11 +326,16 @@ padding-bottom: 20px;
     width: 100%;
 }
 
+.box-section-six{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .single-box{
     width: calc(100% / 3);
 }
 
-.left-box img{
+.left-box .logo-left img{
     width: 100%;
     aspect-ratio: 1 / 1;
     display: block;
@@ -364,6 +369,19 @@ padding-bottom: 20px;
 .center-box{
     background-color: var(--color-not-white);
 }
+
+.center-box{
+    width: 50%;
+}
+
+.center-box img{
+    width: 100%;
+    display: block;
+    aspect-ratio: 16 / 9;
+    padding: 25px;
+}
+
+
    
 
 
