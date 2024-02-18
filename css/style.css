@@ -309,7 +309,6 @@ padding-bottom: 20px;
 }
 
 /* section 5 */
-
 #five{
    gap: 10px;
 }
@@ -325,30 +324,23 @@ padding-bottom: 20px;
 /* section 6 */
 #six{
     width: 100%;
-    background-color: #0093ce;
-}
-
-.logo-container{
-    width: 100%;
-}
-.box-section-six{
-   
 }
 
 .single-box{
-   
+    width: calc(100% / 3);
 }
 
-.box-right{
-    width: 50%
-}
-   
-
-.box-right img{
+.left-box img{
     width: 100%;
     aspect-ratio: 1 / 1;
     display: block;
 }
+.logo-left{
+    width: 50%;
+}
+   
+
+
 
 /* footer */
 footer{
