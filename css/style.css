@@ -47,6 +47,9 @@ ul li,a{
     list-style: none;
     color: var(--color-black);
 }
+.padding-20{
+    padding: 20px;
+}
 
 .normal-link{
     text-decoration: underline;
@@ -633,7 +636,7 @@ details p{
 footer{
     width: 100%;
     background-color: var(--color-black);
-    color: var(--color-not-white);
+    color: var(--color-white);
 }
 
 .footer-list h4{
@@ -643,6 +646,7 @@ footer{
 
 .footer-list ul li a{
     font-size: 0.6em;
+    padding: 20px;
 }
 
 .footer-list{
@@ -665,3 +669,13 @@ footer{
     padding-left: 2px;
 }
 
+.hr-footer{
+    color: var(--color-white);
+    padding-bottom: 40px;
+}
+
+.hr-footer-20{
+    color: var(--color-white);
+    padding-bottom: 40px;
+    width: 10%;
+}
