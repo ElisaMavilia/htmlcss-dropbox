@@ -79,9 +79,27 @@ hr{
 }
 
 .btn-jumbo{
-    width: 210px;
+    width: 50%;
     padding: 10px 4px;
     text-align: center;
+}
+
+.btn-box{
+    text-align: center;
+    margin-right: 20px;
+    font-size: 0.7em;
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.btn-box-down{
+    text-align: center;
+    font-size: 0.7em;
+    padding:5px 15px;
+    margin-right: 20px;
 }
 
 .normal-link{
@@ -156,7 +174,6 @@ header{
 
 nav{
     background-color: var(--color-not-white);
-
     font-size: 14px;
     padding: 10px 20px;     
 }
@@ -249,12 +266,7 @@ main{
     padding-top: 5px;
 }
 
-.btn-box{
-    text-align: center;
-    padding: 4px 50px;
-    margin-left: 10px;
-    font-size: 0.7em;
-}
+
 
 .box-title{
     border-bottom: 1px solid black;
@@ -313,6 +325,20 @@ padding-bottom: 20px;
     padding-left: 10px;
 }
 
+/* section 4 */
+.four-left{
+    width: 60%;
+}
+
+.four-right{
+    width: 40%;
+}
+
+.four-left img{
+    width: 100%;
+    display: block;
+}
+
 /* section 5 */
 #five{
    gap: 10px;
@@ -344,7 +370,7 @@ padding-bottom: 20px;
     width: 100%;
     aspect-ratio: 1 / 1;
     display: block;
-    padding: 80px;
+    padding: 20px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -383,12 +409,9 @@ padding-bottom: 20px;
     width: 100%;
     display: block;
     aspect-ratio: 16 / 9;
-    padding: 25px;
+    padding: 20px;
+
 }
-
-
-   
-
 
 
 /* footer */
