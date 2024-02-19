@@ -116,6 +116,11 @@ hr{
     padding: 5px 10px;
 }
 
+.btn-white-noborder{
+    border: none;
+    padding: 10px 30px;
+}
+
 /* flex utility */
 .d-flex{
     display: flex;
@@ -439,6 +444,22 @@ margin-bottom: 40px;
     aspect-ratio: 16 / 9;
     padding: 20px;
 
+}
+
+/* section 8 */
+#eight{
+    width: 100%;
+    background-color: var(--color-light-blue);
+}
+
+.box-eight{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box-eight h2{
+    padding-right: 150px;
+    color: var(--color-burgundy);
 }
 
 
