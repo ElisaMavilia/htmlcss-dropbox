@@ -310,6 +310,22 @@ main{
     padding-bottom: 80px;
 }
 
+.team:before{
+    content: "\f0c0"; 
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 900;
+}
+
+.company:before{
+    content: "\f1ad"; 
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 900;
+}
+
 .user:before {
     content: "\f007"; 
     font-family: "Font Awesome 6 Free";
