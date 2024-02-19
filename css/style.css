@@ -39,6 +39,7 @@
 .small-container{
     max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 ul li,a{
@@ -455,6 +456,15 @@ margin-left: 25px;
 }
 
 /* section four */
+.four-right h2{
+    padding-bottom: 20px;
+}
+
+.four-right .btn-four{
+    padding-top: 20px;
+}
+
+/* section five */
 #five{
    gap: 10px;
 }
@@ -467,7 +477,7 @@ margin-left: 25px;
     display: block;
 }
 
-/* section 6 */
+/* section six */
 .box-section-six h2{
 margin-bottom: 40px;
 }
@@ -476,7 +486,7 @@ margin-bottom: 40px;
     text-indent: 0%;
 }
 
-/* section 7 */
+/* section seven */
 #seven{
     width: 100%;
 }
