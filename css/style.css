@@ -46,7 +46,6 @@ ul li,a{
     text-decoration: none;
     list-style: none;
     color: var(--color-black);
-    padding: 0 10px;
 }
 
 .normal-link{
@@ -176,7 +175,7 @@ p{
 /* body */
 body{
     font-family: "Open Sans", sans-serif;
-    background-color: var(--color-not-white);
+    background-color: var(--color-white);
 }
 
 /* header */
@@ -240,7 +239,7 @@ h1{
 main{
     width: 100%;
     padding: 20px;
-    background-color: var(--color-not-white);
+    background-color: var(--color-white);
 }
 .padding-left{
     padding-left: 70px;
@@ -294,7 +293,9 @@ main{
 
 .box-list{
   padding: 20px;
-  padding-left: 25px;
+  margin-left: 25px;
+  text-indent: -0.6em;
+  
 }
 
 .box-actions,.action-link{
@@ -375,7 +376,7 @@ main{
 }
 
 .list-down{
-    padding-left: 0;
+    margin-left: 25px;
     text-indent: -0.6em;
 }
 
@@ -464,6 +465,10 @@ margin-left: 25px;
     padding-top: 20px;
 }
 
+.card-down h4{
+    padding-bottom: 20px;
+}
+
 /* section five */
 #five{
    gap: 10px;
@@ -477,13 +482,18 @@ margin-left: 25px;
     display: block;
 }
 
-/* section six */
-.box-section-six h2{
-margin-bottom: 40px;
+#five h2{
+    padding-bottom: 40px;
 }
 
-.box-section a{
-    text-indent: 0%;
+/* section six */
+.box-section-six h2{
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+.link-section-six{
+    text-decoration: none;
 }
 
 /* section seven */
