@@ -510,18 +510,19 @@ margin-left: 25px;
 }
 
 .left-box .logo-left img{
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    display: block;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    align-content: center;
     filter: invert(100%);
-  }
+    width: 50%;
+
+}
 
 .logo-left{
     width: 50%;
+    aspect-ratio: 1 / 1;
+    display: block;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .image-design{
@@ -540,20 +541,32 @@ margin-left: 25px;
     background-color: var(--color-dark-red);
 }
 
-.center-box{
-    background-color: var(--color-not-white);
+.image-bicycle{
+    background-color: var(--color-light-red);
+}
+
+.image-hearst{
+    background-color: var(--color-light-blue);
+}
+
+.image-lonely-planet{
+    background-color: var(--color-ultramarine);
+}
+
+.image-clear-channel-outdoor{
+    background-color: var(--color-yellow);
 }
 
 .center-box{
-    width: 50%;
-}
-
-.center-box img{
+    background-color: beige;
     width: 100%;
+}
+
+.logo-center img{
+    width: 40%;
     display: block;
     aspect-ratio: 16 / 9;
     padding: 20px;
-
 }
 
 /* section 8 */
