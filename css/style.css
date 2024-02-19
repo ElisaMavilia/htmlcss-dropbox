@@ -512,7 +512,6 @@ margin-left: 25px;
 .left-box .logo-left img{
     filter: invert(100%);
     width: 50%;
-
 }
 
 .logo-left{
@@ -522,7 +521,6 @@ margin-left: 25px;
     padding: 25px 25px;
     display: flex;
     justify-content: center;
-
 }
 
 .image-design{
@@ -558,7 +556,7 @@ margin-left: 25px;
 }
 
 .center-box{
-    background-color: beige;
+    background-color: #f5f5f5;
     width: 100%;
 }
 
@@ -566,7 +564,15 @@ margin-left: 25px;
     width: 40%;
     display: block;
     aspect-ratio: 16 / 9;
-    padding: 20px;
+    padding: 40px;
+}
+
+.text-section-seven{
+    margin: 40px
+}
+
+.text-section-seven p{
+    padding-top: 20px;
 }
 
 /* section 8 */
