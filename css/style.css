@@ -51,7 +51,6 @@ ul li,a{
 .normal-link{
     text-decoration: underline;
     color: blue;
-    padding: 0;
 }
 
 p{
@@ -268,7 +267,7 @@ main{
 }
 
 .column{
-    border: 1px solid black;
+    border: 1px solid grey;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 20px;
@@ -279,7 +278,7 @@ main{
 }
 
 .box-title{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     text-align: center;
     padding: 8px;
 }
@@ -289,23 +288,25 @@ main{
 }
 
 .plan{
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .box-list{
-  padding: 20px 0px;
+  padding: 20px;
+  padding-left: 15px;
 }
 
 .box-actions,.action-link{
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .action-link{
     margin-bottom: 20px;
+    padding-left: 15px;
 }
 
 .box-down{
-    padding-left: 10px;
+    padding-left: 15px;
     padding-bottom: 80px;
 }
 
@@ -316,6 +317,33 @@ padding-bottom: 20px;
     padding-right: 5px;
     font-weight: 900;
 }
+
+.folder:before{
+    content: "\f07b";
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 900;
+}
+
+.share-nodes:before{
+    content: "\f1e0";
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 900;
+}
+
+.checked:before{
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 800;
+    font-size: 1em;
+    color: var(--color-dark-blue);
+}
+
 .box-up ul li, .box-down ul li, .box-down h5, .box-up h4{
     margin-bottom: 10px;
 }
@@ -326,22 +354,29 @@ padding-bottom: 20px;
 
 .action-link {
     font-size: 0.8em;
+    padding-left: 10px;
 }
 
-#amount{
+.horizontal-column{
+    padding-left: 10px;
+}
+
+.amount{
     font-size: 0.8em;
     font-weight: 700;
     padding: 4px;
 }
 
-#period{
+.period{
     font-size: 0.5em;
     padding-left: 5px;
     color: grey;
 }
 
-#p-box{
-    padding-left: 10px;
+.contact-us{
+    margin-bottom: 18px;
+    font-size: 0.8em;
+   font-weight: 700;
 }
 
 /* section 4 */
