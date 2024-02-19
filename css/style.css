@@ -288,12 +288,12 @@ main{
 }
 
 .plan{
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .box-list{
   padding: 20px;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 .box-actions,.action-link{
@@ -302,11 +302,11 @@ main{
 
 .action-link{
     margin-bottom: 20px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .box-down{
-    padding-left: 15px;
+    padding-left: 25px;
     padding-bottom: 80px;
 }
 
@@ -352,17 +352,24 @@ main{
     font-size: 0.8em;
 }
 
-.box-list ul li{
+.box-list{
+    text-indent: -0.6em;
+    padding-left: 25px;
+}
+
+.list-down{
+    padding-left: 0;
     text-indent: -0.6em;
 }
 
 .action-link {
     font-size: 0.8em;
-    padding-left: 10px;
+    padding-left: 25px;
 }
 
 .horizontal-column{
-    padding-left: 10px;
+    padding-left: 25px;
+    padding-bottom: 20px;
 }
 
 .amount{
