@@ -403,17 +403,39 @@ main{
 .contact-us{
     margin-bottom: 18px;
     font-size: 0.8em;
-   font-weight: 700;
+    font-weight: 700;
 }
 
-/* section 4 */
+/* section three */
+
+.right-up h4{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 25px ;
+}
+
+.right-up p{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.left-up a{
+    margin-top: 25px;
+}
+
+#p-box p{
+margin-bottom: 20px;
+margin-left: 25px;
+}
+
+/* section four */
 .four-right{
     margin-left: 40px;
     margin-top: 20px;
 }
 
-.four-right h2{
-   padding-bottom: 20px;
+.right-up h4{
+   padding-top: 20px;
 }
 .four-left{
     width: 60%;
@@ -432,7 +454,7 @@ main{
     margin-top: 10px;
 }
 
-/* section 5 */
+/* section four */
 #five{
    gap: 10px;
 }
