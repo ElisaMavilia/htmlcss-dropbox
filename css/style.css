@@ -352,6 +352,10 @@ main{
     font-size: 0.8em;
 }
 
+.box-list ul li{
+    text-indent: -0.6em;
+}
+
 .action-link {
     font-size: 0.8em;
     padding-left: 10px;
