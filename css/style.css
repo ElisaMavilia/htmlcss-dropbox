@@ -574,8 +574,7 @@ margin-left: 25px;
     width: 40%;
     display: block;
     aspect-ratio: 1 / 1;
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .center-box{
@@ -584,13 +583,13 @@ margin-left: 25px;
 }
 
 .hr-20{
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .text-section-seven p{
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 0.8em;
 }
 
